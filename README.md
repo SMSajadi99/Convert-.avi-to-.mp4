@@ -53,7 +53,7 @@ def crop_video(input_file, output_file, start_hour, start_minute, start_second, 
         print(f"Error during cropping: {e}")
 
 if __name__ == "__main__":
-    input_filename = "People on the Street_ What is Power.avi"    # Replace with the name of your input video file
+    input_filename = "Input_video.avi"    # Replace with the name of your input video file
     output_filename = "output_video.mp4"  # Replace with the desired name for the output video file
 
     # Input the start time from the user
